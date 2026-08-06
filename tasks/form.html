@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            padding: 20px;
+            min-height: 100vh;
+
+        }
+
+        .card {
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 24px;
+            margin: 370px;
+            background-color: white;
+            border-radius: 3px;
+            height: 90vh;
+            max-width: 290vw;
+            box-shadow: inset;
+        }
+
+        label {
+            margin: 15px;
+            color: black;
+            font-weight: bold;
+            /* padding:5px; */
+        }
+
+        button {
+            color: White;
+            font-weight: bold;
+            background-color: green;
+            padding: 16px;
+            border-radius: 20px;
+            margin: 0px auto;
+            width: 100%;
+            display: flex;
+            justify-items: center;
+            /* align-items: center; */
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: blue;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: grey;
+            margin-top: 50px;
+        }
+
+        input {
+            border: 1px solid grey;
+            padding: 13px;
+            margin: 10px;
+            width: 100%;
+            border-radius: 20px;
+            box-sizing: border-box;
+
+        }
+
+        .gender {
+            display: flex;
+            align-items: left;
+            gap: 3px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+        }
+
+        .gender label {
+            display: inline;
+            font-weight: normal;
+        }
+
+        .hobby {
+            display: flex;
+            align-items: center;
+        }
+
+        .hobby label {
+            display: inline;
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <form>
+            <h1 style="color:purple;">Student Registration</h1>
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" name="name"><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Enter Password</label><br>
+            <input type="password" id="password" name="password"><br>
+            <!-- //checkbox -->
+            <label>Gender</label>
+            <div class="gender">
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label><br>
+
+            </div>
+
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="city"><br>
+            <!-- Hobbies -->
+            <label for="hobby">Hobbies</label><br>
+
+            <div class="hobby">
+                <input type="radio" id="reading" name="read">
+                <label for="reading">Reading</label>
+                <input type="radio" id="coding" name="code">
+                <label for="coding">Coding</label>
+                <input type="radio" id="sports" name="sport">
+                <label for="sports">Sports</label><br>
+            </div>
+            <button class="btn">Register Now</button>
+
+
+        </form>
+        <footer>
+            &copy; 2026 Student Portal all rights reserved
+        </footer>
+    </div>
+
+</body>
+
+</html>

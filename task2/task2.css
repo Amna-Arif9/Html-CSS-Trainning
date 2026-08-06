@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo image{
+    display: block;
+    padding:  0px 5px;
+    margin:  3px;
+}
+ ul li{
+   list-style-type: none;
+   display:inline-flex;
+   align-items: center;
+   gap: 3px;
+   font-weight: bold;
+   color:#0C0C0E;
+}
+.items ul{
+    flex: 1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* border:1px solid rgb(190, 175, 175); */
+    gap:20px;
+    padding:10px;
+}
+.items{
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+.right{
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    gap:10px;
+}
+
+
+img{
+    width: 150px;
+    height: 50px;
+    /* gap:20px; */
+}
+.lbtn{
+    display: inline-flex;
+    
+        width:50px;
+        height:20px;
+        gap:2px;
+        text-decoration: none;
+        color:blue;
+        font-weight: bold;
+   
+}
+.lbtn img{
+        width:50px;
+        height:20px;
+        color: blue;
+}
+.cbtn{
+    display: inline-flex;
+    color:#3B3D45;
+    text-align:center ;
+    border: 1px solid grey;
+    padding:9px 15px;
+    margin: 10px;
+    gap: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.sbtn{
+    display: inline-flex;
+    color:white;
+    background-color: blue;
+    text-align:center ;
+    border: 1px solid grey;
+    padding:9px 15px;
+    margin: 10px;
+    gap: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  black;
+    box-shadow: 15px;
+
+    width:100%;
+    height: 8px;
+    margin:0;
+    padding: 64px 0px;
+}
+footer p{
+    color:#B2B6BC;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    /* display:flex; */
+    text-align: center;
+    align-items: center;
+
+}
+.content {
+    background-image:url("https://www.hashicorp.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F2885%2F1772214449-homepage-hero.webp&w=3840&q=75") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    padding: 0px 48px;
+    min-height: 80vh;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text p
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font: 14;
+    min-width: 568px 45px;
+
+}
+.heading{
+  padding: 0px 0px 8px;
+  font-size: 48px;;
+  margin-bottom:  20px;
+  gap: 8px;
+}
+.text{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.purple{
+    border: 1px solid purple;
+    background-color: #42225B;
+    padding: 3px 7px;
+    border-radius: 9px;
+    font:13;
+    margin: 5px;
+
+}
+
+.learn-btn{
+    display: inline;
+     border: 1px solid white;
+    background-color: white;
+    color: #3B3D45;
+    font-style: 300;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 11px;
+    border-radius: 8px;
+}
+.Meet-btn{
+    border: 1px solid white;
+    background-color: white;
+    color: #3B3D45;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 11px 19px;
+    border-radius: 8px;
+    margin: 10px;
+
+}

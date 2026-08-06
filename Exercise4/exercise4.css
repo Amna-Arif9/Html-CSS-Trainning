@@ -1,0 +1,49 @@
+:root{
+    --color:blue;
+    --hover:green;
+    --text-color:white;
+    --seccolor:grey;
+}
+.nav{
+    display: flex;
+    /* text-color:var(--text-color); */
+    background-color: var(--color);
+
+}
+ul{
+    overflow: hidden;
+    justify-content: center;
+
+}
+ul li a{
+    
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+     overflow: hidden;
+
+    padding: 20px;
+    color:var(--text-color);
+    /* margin: auto; */
+}
+/* ul li:first-child{
+    --color:green;
+    background-color: var(--color);
+
+} */
+
+.container{
+    background-color: var(--seccolor);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li a:hover{
+    background-color: var(--hover);
+    color:purple;
+    padding: 8px 16px;
+    /* padding: 20px; */
+
+}

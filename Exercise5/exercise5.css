@@ -1,0 +1,128 @@
+:root{
+    --color:blue;
+    --hover:green;
+    --text-color:white;
+    --seccolor:white;
+}
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    /* text-color:var(--text-color); */
+    background-color: var(--color);
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+   
+
+}
+ul{
+    overflow: hidden;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+ul li{
+    margin: 0px;
+    padding:0px;
+}
+ul li a{
+    
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+
+    padding: 8px 16px;
+    color:var(--text-color);
+    /* margin: auto; */
+}
+/* ul li:first-child{
+    --color:green;
+    background-color: var(--color);
+
+} */
+
+.container{
+    background-color: var(--seccolor);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li a:hover{
+    background-color: var(--hover);
+    color:purple;
+
+}
+
+.box{
+    display: flex;
+    border: 2px solid;
+    padding:55px 23px;
+    margin: 12px 32px;
+    width: 100%;
+    height: 800px;
+    background-color: green;
+}
+.div1{
+    display: flex;
+    border: 2px solid;
+    margin: 50px;
+    width: 45%;
+    height: 70vh;
+    background-color: pink;
+}
+.div2{
+    border: 2px solid;
+    margin: 50px;
+    width: 45%;
+    height:70vh;
+    background-color: skyblue;
+}
+.logo{
+    /* position: fixed; */
+    /* width: 12px; */
+    /* height: 12px; */
+    bottom: 12px;
+    /* right: 32px; */
+    /* margin:  5px; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+img{
+    /* position:fixed; */
+}
+.content{
+    border: 4px solid;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 2;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius :20px;
+}
+footer{
+    border:2px solid;
+    background-color: wheat;
+    bottom: 0;
+    left:0;
+    /* margin:0px; */
+    /* padding: 20px; */
+    height:30px;
+    box-sizing: border-box;
+    /* width:100%; */
+}
+
